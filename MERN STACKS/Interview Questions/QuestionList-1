@@ -1,1 +1,193 @@
-y
+MERN STACK INTERVIEW QUESTION AND ANSWER:
+1. What is the MERN stack?
+
+MERN stack is a collection of technologies used for building web applications,
+consisting of MongoDB, Express.js, React.js, and Node.js.
+
+2. Explain each component of MERN.
+MongoDB: A NoSQL database.
+
+Express.js: A web application framework for Node.js.
+React.js: A JavaScript library for building user interfaces.
+Node.js: A runtime environment for executing JavaScript on the server side.
+
+3. What is MongoDB?
+MongoDB is a NoSQL database that stores data in flexible, JSON-like
+documents.
+
+4. What is the difference between SQL-based and NoSQL-based databases?
+
+SQL-based databases are relational, structured, and use tables.
+NoSQL-based databases are non-relational, flexible, and use documents, key-
+value pairs, graphs, or wide-columns.
+
+5. What are the advantages of MongoDB?
+
+Flexible schema, high performance, scalability, horizontal scaling, and JSON-like
+storage format.
+
+6. What is the difference between Node.js and React.js?
+
+Node.js: Server-side runtime environment.
+React.js: Client-side library for building user interfaces.
+
+7. What is the difference between Express.js and Node.js?
+
+Node.js: Runtime environment for executing JavaScript on the server side.
+Express.js: A framework built on top of Node.js to simplify server-side coding, it helps in making routes, creation of path and  suppose 
+you have to make path and provide path and middleware this work is done by middleware. 
+
+8. Why is Node.js called a single-threaded environment?
+
+Node.js uses a single-threaded event loop to handle multiple concurrent requests, due to single thread  its performance  is better
+than the  other  backend base languages like java or django which are multithread. 
+
+9. What is asynchronous programming in Node.js?
+
+A programming paradigm that allows non-blocking operations, enabling other
+processes to continue while waiting for an operation to complete.
+non blocking mean suppose there is two lines of code and first one is taking more time than the second one then first will get executed 
+first then first will execute was executing in the background. 
+
+
+
+10. What is a promise in JavaScript?
+
+An object representing the eventual completion or failure of an asynchronous
+operation.
+
+11. What is async/await in JavaScript?
+
+Syntactic sugar built on promises to write asynchronous code in a synchronous
+manner.
+
+12. What is the React.js component lifecycle?
+
+The sequence of events (mounting, updating, unmounting) that a component goes
+through during its existence.
+
+13. What is the difference between functional components and class components in
+React.js?
+
+Functional components: Stateless, simpler, use hooks.
+Class components: Stateful, more complex, use lifecycle methods.
+
+14. What are controlled components in React.js?
+
+Components where the form data is handled by the state within the component.
+15. What are uncontrolled components in React.js?
+
+Components where the form data is handled by the DOM itself.
+
+16. What are props in React.js?
+o Short for properties, props are read-only inputs passed to components.
+17. What is state in React.js?
+o An object that holds dynamic data and determines the component's behavior.
+18. What is the difference between props and state in React.js?
+o Props: Read-only, passed from parent to child.
+o State: Mutable, managed within the component.
+19. What is the context API in React.js?
+o A way to pass data through the component tree without manually passing props
+down at every level.
+20. What are higher-order components (HOCs) in React.js?
+o Functions that take a component and return a new component, enhancing it with
+additional behavior or data.
+21. What are hooks in React.js?
+o Functions that let you use state and other React features in functional components.
+22. What is the difference between useEffect and useLayoutEffect in React.js?
+o useEffect: Runs asynchronously after render.
+o useLayoutEffect: Runs synchronously after render but before the DOM updates.
+23. What is an API?
+o Application Programming Interface, a set of rules that allow different software
+entities to communicate.
+24. What is REST API?
+o Representational State Transfer API, an architectural style for designing
+networked applications.
+25. What is the full form of REST?
+o Representational State Transfer.
+26. What is the difference between REST API and SOAP API?
+o REST API: Uses HTTP, more flexible and simpler.
+o SOAP API: Protocol-based, more rigid, uses XML.
+27. How can you get data from an API?
+o By making HTTP requests using fetch or Axios in JavaScript.
+28. How can you manage JSON data?
+o Convert JSON to JavaScript objects using JSON.parse() and objects to JSON
+using JSON.stringify().
+29. How do you convert JSON to an object and vice versa?
+o JSON to object: JSON.parse()
+o Object to JSON: JSON.stringify()
+30. What is the fetch approach to call an API?
+o A modern JavaScript method for making network requests and handling
+responses.
+31. What is Axios?
+o A promise-based HTTP client for making API requests in JavaScript.
+32. What is the difference between fetch and Axios?
+o Fetch: Built-in, less intuitive error handling.
+o Axios: Third-party library, easier to use, better error handling.
+33. What is the difference between PATCH and PUT methods in HTTP?
+o PATCH: Partially updates a resource.
+o PUT: Fully updates or creates a resource.
+34. How many types of HTTP methods are there?
+o Common types include GET, POST, PUT, PATCH, DELETE, OPTIONS, and
+HEAD.
+35. What is a status code in HTTP?
+o A code sent by the server to indicate the result of the client's request.
+36. What is the meaning of 1xx, 2xx, 3xx, 4xx, and 5xx status codes?
+o 1xx: Informational responses.
+o 2xx: Success.
+o 3xx: Redirection.
+o 4xx: Client errors.
+o 5xx: Server errors.
+37. What is the difference between Node.js and React.js?
+o Node.js: Server-side runtime.
+o React.js: Client-side library.
+38. What is the difference between Express.js and Node.js?
+o Node.js: Runtime environment.
+o Express.js: Framework built on Node.js for server-side applications.
+39. What is the role of async/await in Node.js programming?
+o Simplifies writing asynchronous code, making it look synchronous and easier to
+read.
+40. How to compile and execute Node.js program code?
+o Using the node command in the terminal, e.g., node app.js.
+41. How does Node.js work internally?
+o It uses the V8 JavaScript engine and an event-driven, non-blocking I/O model.
+42. Which compiler is built-in under the Node.js environment?
+o The V8 JavaScript engine compiler.
+43. What is the React context API?
+o A way to manage global state in React applications without prop drilling.
+44. What are hooks in React?
+o Functions that let you use state and lifecycle features in functional components.
+45. Name five hooks methods you should know.
+o useState, useEffect, useContext, useReducer, useRef.
+46. What is the difference between useEffect and useLayoutEffect?
+o useEffect: Runs after rendering.
+o useLayoutEffect: Runs before the browser paints the screen.
+47. What is the difference between functional components and class components in
+React?
+o Functional components: Stateless, use hooks.
+o Class components: Stateful, use lifecycle methods.
+48. What are the advantages of using Node.js?
+o Non-blocking I/O, single-threaded, event-driven, scalable, and uses JavaScript.
+49. Name five libraries of Node.js.
+o Express, Mongoose, Lodash, Async, and Moment.
+50. What is the fetch approach to call an API?
+o Using the fetch function to make HTTP requests and handle responses.
+51. What is Axios?
+o A promise-based HTTP client for making API requests.
+52. What is the difference between fetch and Axios?
+o Fetch: Built-in, less intuitive error handling.
+o Axios: Third-party library, more intuitive error handling.
+53. What is the difference between PATCH and PUT methods in HTTP?
+o PATCH: Partially updates a resource.
+o PUT: Fully updates or creates a resource.
+54. How many types of HTTP methods are there?
+o Common methods include GET, POST, PUT, PATCH, DELETE, OPTIONS, and
+HEAD.
+55. What is a status code in HTTP?
+o A code indicating the result of the client's request.
+56. What is the meaning of 1xx, 2xx, 3xx, 4xx, and 5xx status codes?
+o 1xx: Informational responses.
+o 2xx: Success.
+o 3xx: Redirection.
+o 4xx: Client errors.
+o 5xx: Server errors.
