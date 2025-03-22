@@ -1,0 +1,42 @@
+SQL Interview Questions to crack your next SQL Interview
+
+1. What is SQL and what is it used for?
+2. Describe the difference between SQL and NoSQL databases.
+3. What are the different types of SQL commands?
+4. Explain the purpose of the SELECT statement.
+5. What is the difference between WHERE and HAVING clauses?
+6. Define what a JOIN is in SQL and list its types.
+7. What is normalization and why is it important?
+8. Explain the concept of primary key and foreign key.
+9. What is a composite key in SQL?
+10. What are indexes in SQL and how do they improve performance?
+11. How can you optimize a slow-running query?
+12. Describe the difference between clustered and non-clustered indexes.
+13. What is a stored procedure and how is it different from a function?
+14. Explain the difference between UNION and UNION ALL.
+15. What is a window function in SQL and how is it used?
+16. How can you retrieve unique values from a column in SQL?
+17. What is the purpose of the GROUP BY clause?
+18. How can you handle NULL values in SQL?
+19. What is a self-join in SQL and how is it used?
+20. Describe the difference between a left join and a right join.
+21. What is a full outer join in SQL and how is it used?
+22. Explain the concept of transactions in SQL.
+23. What is the purpose of locking in SQL?
+24. How do you perform error handling in SQL?
+25. What is a database schema?
+26. Explain the concept of database replication and its uses.
+27. Describe the difference between database sharding and partitioning.
+28. What is a data warehouse in SQL and how is it used?
+29. Describe the difference between a fact table and a dimension table.
+30. What is a dashboard in SQL and how is it used?
+31. What is database normalization and why is it important?
+32. Describe the difference between first normal form (1NF) and second normal form (2NF).
+33. What is denormalization, and when should it be used?
+34. What is a cloud database, and how is it different from an on-premises database?
+35. Explain the concept of database as a service (DBaaS) and its benefits.
+36. What is big data in SQL, and how does it differ from traditional SQL databases?
+37. What is a surrogate key in SQL, and how is it used?
+38. Explain the concept of metadata in SQL.
+39. What is the difference between OLTP and OLAP systems?
+40. What is a graph database, and how is it used?
