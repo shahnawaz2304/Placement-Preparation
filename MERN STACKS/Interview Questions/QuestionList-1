@@ -39,8 +39,8 @@ you have to make path and provide path and middleware this work is done by middl
 
 8. Why is Node.js called a single-threaded environment?
 
-Node.js uses a single-threaded event loop to handle multiple concurrent requests, due to single thread  its performance  is better
-than the  other  backend base languages like java or django which are multithread. 
+Node.js uses a single-threaded event loop to handle multiple concurrent requests; due to single thread  its performance  is better
+than the other backend base languages like Java or Django, which are multithread. 
 
 9. What is asynchronous programming in Node.js?
 
@@ -48,23 +48,22 @@ A programming paradigm that allows non-blocking operations, enabling other
 processes to continue while waiting for an operation to complete.
 non blocking mean suppose there is two lines of code and first one is taking more time than the second one then first will get executed 
 first then first will execute was executing in the background. 
-
-
-
+ 
 10. What is a promise in JavaScript?
 
-An object representing the eventual completion or failure of an asynchronous
-operation.
+An object representing the eventual completion or failure of an asynchronous operation.
+This means that in either case, failure or success, it will get executed or handle your code and will give you the results. 
+It's kind of handling the failure without affecting the other program. It will give you guarantee that this program will 
+execute 100% result is wheather success or failure.  
 
 11. What is async/await in JavaScript?
 
-Syntactic sugar built on promises to write asynchronous code in a synchronous
-manner.
+Syntactic sugar built on promises to write asynchronous code in a synchronous manner.
+If  you want to write the promise in the asynchronous code in the synchronous manner then we can handle it by it.  
 
 12. What is the React.js component lifecycle?
 
-The sequence of events (mounting, updating, unmounting) that a component goes
-through during its existence.
+The sequence of events (mounting, updating, unmounting) that a component goes through during its existence.
 
 13. What is the difference between functional components and class components in
 React.js?
